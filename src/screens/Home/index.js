@@ -6,7 +6,9 @@ import styles from './styles';
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text style={{ fontFamily: 'iria-sans-bold' }}>Home Screen</Text>
+      <Text style={{ fontFamily: 'roboto-mono-medium' }}>Home Screen</Text>
+      <Text style={{ fontFamily: 'roboto-mono-regular' }}>Home Screen</Text>
     </View>
   );
 }
