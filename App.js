@@ -8,7 +8,6 @@ export default function App() {
   let [fontsLoaded] = useFonts({
     'iria-sans-bold': require('./assets/fonts/InriaSans-Bold.ttf'),
     'roboto-mono-medium': require('./assets/fonts/RobotoMono-Medium.ttf'),
-    'roboto-mono-regular': require('./assets/fonts/RobotoMono-Regular.ttf'),
   });
 
   if (fontsLoaded) {
